@@ -1,4 +1,4 @@
-public class Fibonacchi_2{
+public class Fibonacchi{
 
     public void run(int num){
 	int[] fibo = new int[num];
@@ -13,7 +13,7 @@ public class Fibonacchi_2{
     }
 
     public static void main(String[] args){
-	Fibonacchi_2 app =new Fibonacchi_2();
+	Fibonacchi app =new Fibonacchi();
 	int num=Integer.parseInt(args[0]);
 	app.run(num);
     }
